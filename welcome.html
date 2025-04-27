@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Your Favourite Country</title>
+    <style>
+        /* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #02acfb;
+}
+
+header {
+    background-color: #d900ff62;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.country-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.country-img:hover {
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Explore Your Favorite Country</h1>
+        <h2>Click the image for surprise</h2>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav>
+        <ul>
+            <li><a href="country.html">Country</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gallery Section -->
+    <div class="gallery">
+        <!-- First Row -->
+        <div class="gallery-item">
+            <img src="india.jpeg" alt="India" class="country-img">
+            <p>India</p>
+        </div>
+        <div class="gallery-item">
+            <img src="south korea.jpg" alt="South Korea" class="country-img">
+            <p>South Korea</p>
+        </div>
+        <div class="gallery-item">
+            <img src="japan.jpeg" alt="Japan" class="country-img">
+            <p>Japan</p>
+        </div>
+
+        <!-- Second Row -->
+        <div class="gallery-item">
+            <img src="china.jpg" alt="China" class="country-img">
+            <p>China</p>
+        </div>
+        <div class="gallery-item">
+            <img src="egypt.jpg" alt="Egypt" class="country-img">
+            <p>Egypt</p>
+        </div>
+        <div class="gallery-item">
+            <img src="philippines.jpg" alt="Philippines" class="country-img">
+            <p>Philippines</p>
+        </div>
+
+        <!-- Third Row -->
+        <div class="gallery-item">
+            <img src="france.jpg" alt="France" class="country-img">
+            <p>France</p>
+        </div>
+        <div class="gallery-item">
+            <img src="indonesia.jpeg" alt="Indonesia" class="country-img">
+            <p>Indonesia</p>
+        </div>
+        <div class="gallery-item">
+            <img src="thailand.jpg" alt="Thailand" class="country-img">
+            <p>Thailand</p>
+        </div>
+    </div>
+    
+    <!-- Footer Section (Optional) -->
+    <footer>
+        <p>&copy; 2025 Explore Your Favourite Country</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
